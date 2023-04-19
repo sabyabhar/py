@@ -7,7 +7,7 @@ pipeline{
     environment{
         
         registry = "sabyasanchi/py"
-        registryCredential = 'dckr_pat_-8vNVObZtam0Zyq44h53ThPU7x0'        
+        registryCredential = 'dockerhub'        
     }
     
     stages{
