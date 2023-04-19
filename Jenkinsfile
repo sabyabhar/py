@@ -1,4 +1,4 @@
-ipeline{
+pipeline{
     agent any
     options{
         buildDiscarder(logRotator(numToKeepStr: '5', daysToKeepStr: '5'))
@@ -26,5 +26,6 @@ ipeline{
           }
         }
       }
+    }
     }
 }
